@@ -2,7 +2,7 @@
 
 import time
 
-from google import genai
+import google.generativeai as genai
 from google.genai import types
 
 from ..logger import write_log
